@@ -6,3 +6,6 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(3000, console.log('Server listening on port : 3000'));
+
+
+// event loops wait for request to come in than,we run our call back
